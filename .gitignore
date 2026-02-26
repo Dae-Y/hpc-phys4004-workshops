@@ -33,3 +33,11 @@ slurm-*.out
 # macOS / Windows junk
 .DS_Store
 Thumbs.db
+
+# Database / Indexing / Cache files
+._dbindex_/
+.cache/
+*.db
+
+# Nested Git repositories
+supercomputing-user-training/
