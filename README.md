@@ -3,10 +3,10 @@
 This repository contains HPC exercises completed as part of the Curtin University unit in Semester 1, 2026.
 
 ## Contents
-- `week01/` — introductory Linux, compilation, and batch job exercises  
-- `week02/` — MPI basics, process ranks, communicators, and distributed summations  
-
-...
+- `week01/` - introductory Linux, compilation, and batch job exercises
+- `week02/` - MPI basics, process ranks, communicators, and distributed summations
+- `week03/` - MPI non-blocking communication, message overlap, and master/worker parallelism patterns
+- `week04/` - ...
 
 
 
