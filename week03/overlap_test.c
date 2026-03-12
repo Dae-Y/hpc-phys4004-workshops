@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    /* This exercise is designed for exactly 2 processes. */
+    /* exactly 2 processes */
     if (size != 2) {
         MPI_Finalize();
         return 0;
@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
             MPI_Abort(MPI_COMM_WORLD, 1);
         }
         for (int i = 0; i < N; i++) {
-            buf[i] = (float)i;  /* simple pattern; last value is N-1 */
+            buf[i] = (float)i;  /* simple pattern, last value is N-1 */
         }
 
         /* Post non-blocking send */
